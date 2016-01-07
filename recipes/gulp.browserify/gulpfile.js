@@ -67,12 +67,12 @@ gulp.task('default', ['build-vendor-js', 'build-vendor-css', 'sass', 'bundle'], 
     browserSync.init({
         server: {
             baseDir: rootPath
-        }
+        },
+        browser: [] //do not open a browser tab
     });
 });
 
 gulp.task('sass', function(){
-  console.log(src.css)
     return gulp.src(src.scss)
         .pipe(sass())
         .pipe(gulp.dest(src.css))

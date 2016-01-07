@@ -1,12 +1,11 @@
 {
-  "name": "gulp.browserify",
-  "description": "Browserify, Babelify + Watchify + Sourcemaps Example",
+  "name": "PROJECT_NAME",
+  "description": "PROJECT_DESCRIPTION",
   "main": "gulpfile.js",
   "authors": [
-    "Nick ten Veen <nveen0930@gmail.com>"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/BrowserSync/recipes",
+  "homepage": "PROJECT_HOMEPAGE",
   "moduleType": [],
   "ignore": [
     "**/.*",
